@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Rodon Hotel</title>
+
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800|Old+Standard+TT' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:300,500,800' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- uniform -->
+<link type="text/css" rel="stylesheet" href="assets/uniform/css/uniform.default.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/wow/animate.css" />
+
+
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+
+<!-- favicon -->
+<link rel="shortcut icon" href="images/icon_final.png" type="image/x-icon">
+<link rel="icon" href="images/icon_final.png" type="image/x-icon">
+
+<link rel="stylesheet" href="assets/style.css">
+
+
+<script src="assets/jquery.js"></script>
+<script>
+$(function(){
+  $("#includedContent").load("navbar.html");
+    $("#includedContent_footer").load("footer.html");
+});
+</script>
+
+<script>
+    $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top
+            }, 1000);
+            return false;
+        }
+    }
+});
+</script>
+
+</head>
+
+<body id="home">
+
+<div  class="navbar  navbar-default navbar-fixed-top" >
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> <img src="images/logo_final.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+        <li class="c1"><a href="index.html">Home </a></li>
+        <li class="c1"><a href="rooms.html">Rooms</a></li>
+        <li class="c1"><a href="gallery.html">Photo Gallery</a></li>
+        <li class="c1"><a href="contact.html">Contact</a></li>
+        <li class="c1"><a href="index_gr.html"><img src="images/gr.png"></a></li>
+        <li class="c1"><a href="index.html"><img src="images/usa_flag_2.png"></a></li>
+      </ul>
+
+      </div><!-- Wnavbar-collapse -->
+  </div><!-- container-fluid -->
+</div>
+<div id="contain_home">
+
+
+<!-- banner -->
+<div class="banner">
+    <img src="images/gallery1/pool/DSC_8648_1.jpg"  class="img-responsive" alt="slide">
+    <div class="welcome-message">
+        <div class="wrap-info">
+            <a href="#text_align" class="arrow-nav scroll wowload fadeInDownBig" onclick="scrollD"><i class="fa fa-angle-down"></i></a>
+        </div>
+    </div>
+</div>
+<!-- banner-->
+
+<div class="spacer wowload text_h"  style="text-align: center; background-color:#ECECEA; padding-top:60px;">
+
+    <div id="text_align" style="padding-top:120px;">
+        <h1>
+            Rodon Hotel
+        </h1>
+        <div class="meta"><span>Visit us</span> at beautiful <span>Chania</span></div>
+        <div class="body">
+            <p><b>Rodon Hotel enjoys a beautiful location amongst the olive trees in the suburbs of Chania, with stunning views of the White Mountains from its spacious terrace.</b></p>
+
+        <p>This family-run hotel can be found just 2.5 km from Chania’s centre. It offers a peaceful base away from the crowds of tourists whilst still being close to the attractions.</p>
+
+        <p>Rodon Hotel’s lovely garden setting is well-designed to ensure you have plenty of space to lie back and relax. The long outdoor pool stretches in front of the hotel, offering a nice space for a refreshing dip. The sun terrace at the top of Rodon is a lovely place to relax with a drink and admire the views of Chania and the sea.</p>
+
+        <p>During your stay you can enjoy a complimentary breakfast and free private parking. Your neutrally decorated room offers a relaxing space and private balcony with views of the hotel’s grounds.</p>
+
+        <p>Rodon Hotel’s strategic location is just 7 km from Souda Bay and 12 km from the airport. The local bus stops right next to the property and provides regular service to Chania.</p>
+            <date>July 10, 2015</date>
+        </div>
+    </div>
+</div>
+<!-- services -->
+<div class="spacer services wowload fadeInUp" style="background-color:#ECECEA;">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <!-- RoomCarousel -->
+            <div id="RoomCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active"><img src="images/gallery1/rooms/DSC_8288.JPG" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/gallery1/rooms/DSC_8304.JPG"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/gallery1/rooms/DSC_8314.JPG"  class="img-responsive" alt="slide"></div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#RoomCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#RoomCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- RoomCarousel-->
+            <div class="caption">Rooms<a href="rooms.html" class="pull-right"></a></div>
+        </div>
+
+
+
+        <div class="col-sm-4">
+            <!-- RoomCarousel -->
+            <div id="TourCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active"><img src="images/gallery1/lounge/DSC_8175.JPG" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/gallery1/lounge/DSC_8189.JPG"  class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/gallery1/lounge/DSC_8204.JPG"  class="img-responsive" alt="slide"></div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#TourCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#TourCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- RoomCarousel-->
+            <div class="caption">Lounge<a href="gallery.php" class="pull-right"></a></div>
+        </div>
+
+  <div class="col-sm-4">
+            <!-- RoomCarousel -->
+            <div id="FoodCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                <div class="item active"><img src="images/gallery1/pool/DSC_8648%20Cropped.jpg" class="img-responsive" alt="slide"></div>
+                <div class="item  height-full"><img src="images/gallery1/pool/DSC_8353%20Cropped.jpg" class="img-responsive" alt="slide"></div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#FoodCarousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                <a class="right carousel-control" href="#FoodCarousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <!-- RoomCarousel-->
+            <div class="caption">Swimming Pool<a href="gallery.php" class="pull-right"></a></div>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- services -->
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="footer-distributed">
+
+			<div class="footer-left">
+
+				<img src="images/logo_final.png">
+
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="rooms.html">Rooms</a>
+					·
+					<a href="gallery.html">Gallery</a>
+					·
+					<a href="contact.html">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Rodon Hotel &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Akrotiriou 112 Chania</span> Chania, Greece</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+30 28210 58317-8</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">info@rodon-hotel.gr</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Find us on Facebook</span>
+				</p>
+
+				<div class="footer-icons">
+					<a href="https://www.facebook.com/pages/Rodon-Hotel-Chania/296370087212521?fref=ts"><img src="images/facebook-icon.png"></a>
+
+                </div>
+                <p class="footer-company-about">
+					<span>Find us on Booking</span>
+				</p>
+
+                <a href="http://www.booking.com/hotel/gr/rodon.html"><img src="images/Booking.png"</a>
+
+
+		</div>
+
+</div>
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title">title</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+</div>
+
+<a href="#home" class="toTop scroll"><i class="fa fa-angle-up"></i></a>
+
+
+
+<script src="assets/jquery.js"></script>
+<!-- wow script -->
+<script src="assets/wow/wow.min.js"></script>
+<!-- uniform -->
+<script src="assets/uniform/js/jquery.uniform.js"></script>
+<!-- boostrap -->
+<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+<!-- jquery mobile -->
+<script src="assets/mobile/touchSwipe.min.js"></script>
+<!-- jquery mobile -->
+<script src="assets/respond/respond.js"></script>
+<!-- gallery -->
+<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+<!-- custom script -->
+<script src="assets/script.js"></script>
+</body>
+</html>
